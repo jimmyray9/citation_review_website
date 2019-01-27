@@ -1,0 +1,102 @@
+body {
+    font-family:'Open Sans', sans-serif;
+    font-size:12pt;
+    padding: 0;
+    margin: 0;
+    background-color: white
+}
+
+header {
+    width: 100%;
+    background-color:#eaeaea;
+    text-align: center;
+    padding: 15px 50px;
+    margin-top:0;
+}
+
+h1 {
+    font-weight:600;
+}
+
+header p {
+    color:darkslategray;
+}
+
+form {
+    margin-top:50px;
+}
+
+a {
+    text-align:middle;
+    display: block;
+    color:rgb(75, 70, 5);
+}
+
+hr {
+    background-color:#333; 
+}
+
+/* Well properties */
+label {
+    margin: 10px 15px;
+    width: 20%;
+    font-size: 1.15em;
+}
+
+textarea {
+    vertical-align: middle;
+    margin:15px 0px;
+}
+
+.well {
+    border:1px solid darkslategray;
+    border-radius:4px;
+    padding: 20px 40px;
+    background-color:rgba(204, 200, 194, 0.5);
+    margin: 25px 0px;
+}
+
+.wellTitle {
+    font-weight: 400;
+}
+
+.wellBody {
+    vertical-align:middle;
+    text-align:left;
+    color: #222;
+
+}
+
+.wellBody>div {
+    margin:12px;
+    box-sizing: border-box;
+    border:4px solid transparent;
+}
+
+/* Javascript added classes */
+.fa-thumbs-o-up {
+    font-size:25px;
+    color:green;
+    vertical-align:middle;
+}
+
+.fa-thumbs-o-down {
+    font-size:25px;
+    color:red;
+    vertical-align:middle;
+}
+
+.incorrect {
+    border:4px solid red !important;
+    padding-top: -4px;
+}
+
+.correct {
+    border:4px solid green !important;
+    padding-top: -4px;
+}
+
+#spacing {
+    
+    content:"";
+}
