@@ -47,6 +47,7 @@ textarea {
     vertical-align: middle;
     margin:15px 0px;
     width: 100%;
+    padding: 0px 5px;
 }
 
 input {
@@ -69,13 +70,14 @@ input {
     vertical-align:middle;
     text-align:left;
     color: #222;
-
+    
 }
 
 .wellBody>div {
     margin:12px;
     box-sizing: border-box;
     border:4px solid transparent;
+    padding: 15px;
 }
 
 /* Javascript added classes */
