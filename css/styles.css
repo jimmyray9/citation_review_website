@@ -38,14 +38,19 @@ hr {
 
 /* Well properties */
 label {
-    margin: 10px 15px;
-    width: 20%;
+    margin: 10px 0px;
+    width: 100%;
     font-size: 1.15em;
 }
 
 textarea {
     vertical-align: middle;
     margin:15px 0px;
+    width: 100%;
+}
+
+input {
+    max-width: 100%;
 }
 
 .well {
